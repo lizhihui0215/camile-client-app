@@ -186,7 +186,7 @@ Things to consider:
 
 ### Features
 
-* Missed new component [ng2-smart-table](https://akveo.github.io/ng2-smart-table/) - [demo](http://akveo.com/camile-client-app/#/pages/tables/smarttables)
+* Missed new component [ng2-smart-table](https://akveo.github.io/ng2-smart-table/) - [demo](http://camile-client-app/camile-client-app/#/pages/tables/smarttables)
 
 ### How to update
 
@@ -207,7 +207,7 @@ Things to consider:
 ### Features
 
 * Finally get rid of bower (thanks to @GRoguelon)
-* New component [ng2-smart-table](https://akveo.github.io/ng2-smart-table/) - [demo](http://akveo.com/camile-client-app/#/pages/tables/smarttables)
+* New component [ng2-smart-table](https://akveo.github.io/ng2-smart-table/) - [demo](http://camile-client-app/camile-client-app/#/pages/tables/smarttables)
 
 
 ### How to update
@@ -303,8 +303,8 @@ More details on how to configure a new route you can find [here](https://akveo.g
 
 * Angular updated to rc.2
 * Dependencies updated accordingly
-* Login page component [Demo](http://akveo.com/camile-client-app/#/login)
-* Sign up page component [Demo](http://akveo.com/camile-client-app/#/register)
+* Login page component [Demo](http://camile-client-app/camile-client-app/#/login)
+* Sign up page component [Demo](http://camile-client-app/camile-client-app/#/register)
 
 ### BREAKING CHANGES
 * `$` renamed to `jQuery` because of name resolution conflicts

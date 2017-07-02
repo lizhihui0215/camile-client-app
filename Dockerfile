@@ -1,6 +1,6 @@
 FROM node:6.9.5
 
-RUN git clone https://github.com/akveo/camile-client-app.git /var/www \
+RUN git clone https://github.com/lizhihui0215/camile-client-app /var/www \
     && cd /var/www \
     && npm install --global rimraf \
     && npm run clean \

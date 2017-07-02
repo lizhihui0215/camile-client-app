@@ -3,7 +3,7 @@
 
 # TEAM
 
-  akveo.com
+  camile-client-app
 
 # THANKS
 

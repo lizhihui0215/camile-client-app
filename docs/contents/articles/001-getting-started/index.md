@@ -31,11 +31,11 @@ You can also use camile-client-app for the purpose of learning Angular.
 * Angular CLI
 * Bootstrap 4 CSS Framework
 * SASS
-* [Smart Table](http://akveo.com/camile-client-app/#/pages/tables/smarttables)
-* [Forms](http://akveo.com/camile-client-app/#/pages/forms/inputs)
-* [Editors](http://akveo.com/camile-client-app/#/pages/editors/ckeditor)
-* [Charts (amChart, Chartist, Chart.js, Morris)](http://akveo.com/camile-client-app/#/pages/charts/chartist-js)
-* [Maps (Google, Leaflet, amMap)](http://akveo.com/camile-client-app/#/pages/maps/googlemaps)
+* [Smart Table](http://camile-client-app/camile-client-app/#/pages/tables/smarttables)
+* [Forms](http://camile-client-app/camile-client-app/#/pages/forms/inputs)
+* [Editors](http://camile-client-app/camile-client-app/#/pages/editors/ckeditor)
+* [Charts (amChart, Chartist, Chart.js, Morris)](http://camile-client-app/camile-client-app/#/pages/charts/chartist-js)
+* [Maps (Google, Leaflet, amMap)](http://camile-client-app/camile-client-app/#/pages/maps/googlemaps)
 * Responsive layout
 * High resolution
 * and many more!

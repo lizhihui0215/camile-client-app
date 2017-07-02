@@ -342,7 +342,7 @@ export const PAGES_MENU = [
         data: {
           menu: {
             title: 'general.menu.external_link',
-            url: 'http://akveo.com',
+            url: 'http://camile-client-app',
             icon: 'ion-android-exit',
             order: 800,
             target: '_blank'

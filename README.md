@@ -4,13 +4,13 @@
 
 # Admin panel framework based on Angular, Bootstrap 4 and Angular CLI
 
-Admin template made with :heart:  by [Akveo team](http://akveo.com/). Follow us on [Twitter](https://twitter.com/akveo_inc) to get the latest news about this template first!
+Admin template made with :heart:  by [Akveo team](http://camile-client-app/). Follow us on [Twitter](https://twitter.com/akveo_inc) to get the latest news about this template first!
 
 ### Demo
 
-<a target="_blank" href="http://akveo.com/camile-client-app/"><img src="http://i.imgur.com/QK9AzHj.jpg" width="600" alt="Sky Blue"/></a>
+<a target="_blank" href="http://camile-client-app/camile-client-app/"><img src="http://i.imgur.com/QK9AzHj.jpg" width="600" alt="Sky Blue"/></a>
 
-<a target="_blank" href="http://akveo.com/camile-client-app/">Live Demo</a>
+<a target="_blank" href="http://camile-client-app/camile-client-app/">Live Demo</a>
 
 ## Angular 1.x version
 Here you can find Angular 1.x based version: [Blur Admin](http://akveo.github.io/blur-admin/)
@@ -36,7 +36,7 @@ This project runs its tests on multiple desktop and mobile browsers using [Brows
 - Like our page on [Facebook](https://www.facebook.com/akveo/) :thumbsup:
 
 ## Can I hire you guys?
-Yes!  Visit [our homepage](http://akveo.com/) or simply leave us a message to [contact@akveo.com](mailto:contact@akveo.com). We will be happy to work with you!
+Yes!  Visit [our homepage](http://camile-client-app/) or simply leave us a message to [contact@camile-client-app](mailto:contact@camile-client-app). We will be happy to work with you!
 
 ## Features
 * TypeScript
