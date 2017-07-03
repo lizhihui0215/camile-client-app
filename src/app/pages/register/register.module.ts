@@ -3,7 +3,7 @@ import { CommonModule }  from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgaModule } from '../../theme/nga.module';
 
-import { Register } from './register.component';
+import { RegisterComponent } from './register.component';
 import { routing }       from './register.routing';
 
 
@@ -16,7 +16,7 @@ import { routing }       from './register.routing';
     routing
   ],
   declarations: [
-    Register
+    RegisterComponent
   ]
 })
 export class RegisterModule {}

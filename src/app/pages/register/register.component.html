@@ -1,0 +1,89 @@
+<div class="auth-main">
+  <div class="auth-block">
+    <h1>注册账号</h1>
+
+    <form [formGroup]="form" (ngSubmit)="onSubmit()" class="form-horizontal">
+      <div class="row">
+        <div class="form-group col" [ngClass]="{'has-error': (!username.valid && username.touched), 'has-success': (username.valid && username.touched)}">
+          <div class="row">
+            <label for="inputName3" class="col-sm-2 control-label">用户名</label>
+
+            <div class="col-sm-10">
+              <input [formControl]="username" type="text" class="form-control form-control-sm" id="inputName3" placeholder="username">
+            </div>
+          </div>
+        </div>
+        <div class="form-group col" [ngClass]="{'has-error': (!name.valid && name.touched), 'has-success': (name.valid && name.touched)}">
+          <div class="row">
+            <label for="inputEmail3" class="col-sm-2 control-label">姓名</label>
+            <div class="col-sm-10">
+              <input [formControl]="name" type="text" class="form-control form-control-sm" id="inputEmail3" placeholder="name">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col" [ngClass]="{'has-error': (!phone.valid && phone.touched), 'has-success': (phone.valid && phone.touched)}">
+          <div class="row">
+            <label for="phone" class="col-sm-2 control-label">电话</label>
+
+            <div class="col-sm-10">
+              <input [formControl]="phone" type="tel" class="form-control form-control-sm" id="phone"
+                     placeholder="phone">
+            </div>
+          </div>
+        </div>
+        <div class="form-group col" [ngClass]="{'has-error': (!birthday.valid && birthday.touched), 'has-success': (birthday.valid && birthday.touched)}">
+          <div class="row">
+            <label for="birthday" class="col-sm-2 control-label">出生年月</label>
+
+            <div class="col">
+              <input [formControl]="birthday" type="password" class="form-control form-control-sm" id="birthday" placeholder="Repeat">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="form-group col" [ngClass]="{'has-error': (!password.valid && password.touched), 'has-success': (password.valid && password.touched)}">
+          <div class="row">
+            <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+
+            <div class="col-sm-10">
+              <input [formControl]="password" type="password" class="form-control form-control-sm" id="inputPassword3" placeholder="Password">
+            </div>
+          </div>
+        </div>
+        <div class="form-group col" [ngClass]="{'has-error': (!repeatPassword.valid && repeatPassword.touched), 'has-success': (repeatPassword.valid && repeatPassword.touched)}">
+          <div class="row">
+            <label for="inputPassword4" class="col-sm-2 control-label">重复密码</label>
+
+            <div class="col">
+              <input [formControl]="repeatPassword" type="password" class="form-control form-control-sm" id="inputPassword4" placeholder="Repeat">
+              <span *ngIf="!passwords.valid && (password.touched || repeatPassword.touched)" class="help-block sub-little-text">Passwords don't match.</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="form-group row">
+        <div class="col ">
+          <button [disabled]="!form.valid" type="submit" class="btn btn-default btn-block btn-auth">注册</button>
+        </div>
+      </div>
+    </form>
+    <a routerLink="/login" class="auth-link">已经有账号了? 登陆!</a>
+
+
+    <!--<div class="al-share-auth">-->
+      <!--<ul class="al-share clearfix">-->
+        <!--<li><i class="socicon socicon-facebook" title="Share on Facebook"></i></li>-->
+        <!--<li><i class="socicon socicon-twitter" title="Share on Twitter"></i></li>-->
+        <!--<li><i class="socicon socicon-google" title="Share on Google Plus"></i></li>-->
+      <!--</ul>-->
+    <!--</div>-->
+  </div>
+</div>
